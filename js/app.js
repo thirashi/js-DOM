@@ -41,13 +41,16 @@ princeElement.innerHTML="Im not a human I am a dove I'm your conscious I am love
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
+var bLeeElement=document.getElementsByClassName("profile")[1];
+bLeeElement.innerHTML="Mistakes are always forgivable, if one has the courage to admit them";
 
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var sJacksonElement=document.getElementsByClassName("alias")[2];
+sJacksonElement.innerHTML="Mace Windu";
 
 /*7. Peter Griffin
 
