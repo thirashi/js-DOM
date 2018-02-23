@@ -30,7 +30,10 @@ pTaroElement.innerHTML="Concatenation";
 
 /*4. Prince
 
-Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
+Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.
+*/
+var princeElement=document.getElementsByClassName("profile")[0];
+princeElement.innerHTML="Im not a human I am a dove I'm your conscious I am love";
 
 
 
@@ -51,6 +54,12 @@ Find the div with the class name of "alias" and replace the n/a with your favori
 Create a div element and give it an id of "name7". Inside this div element, give it the contents of "Peter Griffin".
 
 Append this div element to the nameParent div*/
+
+var pGriffinName=document.createElement("div");
+pGriffinName.id="name7";
+pGriffinName.innerHTML="Peter Griffin";
+nameBox.appendChild(pGriffinName);
+
 
 
  
