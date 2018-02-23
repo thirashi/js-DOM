@@ -24,7 +24,8 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
 
-
+var pTaroElement=document.getElementById("alias3");
+pTaroElement.innerHTML="Concatenation";
 
 
 /*4. Prince
