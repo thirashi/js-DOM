@@ -81,4 +81,24 @@ aliasParent.appendChild(tDuncanElement);
 
 //Final Boss
 /*9. Create your own profile.*/
+var image=document.getElementsByClassName("block3 col-sm-4")[2].innerHTML ="<img src=https://vignette.wikia.nocookie.net/disney/images/9/9c/Anger-inside-out.png/revision/20151120110950>"
 
+var myName=document.createElement("div");
+myName.id="name9";
+myName.innerHTML="Tyler Hirashima";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myName);
+
+var myPosition=document.createElement("div");
+myPosition.id="position9";
+myPosition.innerHTML="Student";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myPosition);
+
+var myAlias=document.createElement("div");
+myAlias.id="alias9";
+myAlias.innerHTML="The Lost Coder";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myAlias);
+
+var myBio=document.createElement("div");
+myBio.id="bio9";
+myBio.innerHTML="Hitting my head on the keyboard is my new favorite past time.";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(myBio);
