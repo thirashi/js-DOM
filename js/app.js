@@ -61,7 +61,7 @@ Append this div element to the nameParent div*/
 var pGriffinName=document.createElement("div");
 pGriffinName.id="name7";
 pGriffinName.innerHTML="Peter Griffin";
-nameBox.appendChild(pGriffinName);
+nameParent.appendChild(pGriffinName);
 
 
 
@@ -71,6 +71,11 @@ nameBox.appendChild(pGriffinName);
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Old Man Riverwalk".
 
 Append this div element to the aliasParent div.*/
+
+var tDuncanElement=document.createElement("div");
+tDuncanElement.id="alias8s";
+tDuncanElement.innerHTML="Old Man Riverwalk";
+aliasParent.appendChild(tDuncanElement);
 
 
 
